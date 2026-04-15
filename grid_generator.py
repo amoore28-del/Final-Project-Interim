@@ -16,6 +16,11 @@ def generate_hidden_grid(rows, columns, num_fish)
         row= random.randit(0, rows -1)
         col= random.radint (0, cols -1)
 
+    if grid[row][col] == "-"
+        grid[row][col] = "Fish"
+        fish_count += 1
+""" Check spot > If empty > Place fish > Count it"""
+
 
 
 
